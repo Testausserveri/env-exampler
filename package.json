@@ -10,5 +10,5 @@
   "scripts": {
     "envexampler": "node ."
   },
-  "bin": "./src/index.js"
+  "bin": "./src/index.min.js"
 }
