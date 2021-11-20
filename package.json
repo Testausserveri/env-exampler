@@ -2,13 +2,16 @@
   "name": "env-exampler",
   "version": "1.0.1",
   "description": "Remove values from .env for a .env.example file!",
-  "main": "src/index.js",
+  "main": "index.min.js",
   "repository": "https://github.com/Testausserveri/env-exampler",
   "author": "raikasdev",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "envexampler": "node ."
+    "minify": "minify src/index.js > index.min.js"
   },
-  "bin": "./src/index.min.js"
+  "bin": "./index.min.js",
+  "devDependencies": {
+    "minify": "^8.0.3"
+  }
 }
