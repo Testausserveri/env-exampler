@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed "s/\=.*\$/\=/g" .env > .env.example
