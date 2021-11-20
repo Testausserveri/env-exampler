@@ -8,7 +8,6 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "prepare": "husky install",
     "envexampler": "node ."
   },
   "bin": "./src/index.js"
