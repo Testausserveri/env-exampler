@@ -1,6 +1,6 @@
 {
   "name": "env-exampler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remove values from .env for a .env.example file!",
   "main": "src/index.js",
   "repository": "https://github.com/Testausserveri/env-exampler",
