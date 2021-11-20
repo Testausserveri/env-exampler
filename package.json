@@ -1,0 +1,15 @@
+{
+  "name": "env-exampler",
+  "version": "1.0.0",
+  "description": "Remove values from .env for a .env.example file!",
+  "main": "src/index.js",
+  "repository": "https://github.com/Testausserveri/env-exampler",
+  "author": "raikasdev",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepare": "husky install",
+    "envexampler": "node ."
+  },
+  "bin": "./src/index.js"
+}
