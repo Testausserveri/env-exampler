@@ -5,7 +5,7 @@ const
 
 const envPath = path.resolve(process.cwd(), '.env');
 const envExamplePath = path.resolve(process.cwd(), '.env.example');
-const envRegex = /(^\s*\S*?=).*$/gm;
+const envRegex = /(^.*?=).*$/gm;
 
 try {
     if (fs.existsSync(envPath)) {
