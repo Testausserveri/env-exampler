@@ -3,7 +3,8 @@ const
  fs = require('fs'),
  path = require('path');
 
-const envPath = path.resolve(process.cwd(), '.env');
+const argumentEnvPath = process.argv[2];
+const envPath = path.resolve(process.cwd(), argumentEnvPath === undefined ? '.env' : argumentEnvPath);
 const envExamplePath = path.resolve(process.cwd(), '.env.example');
 const envRegex = /(^\s*\S*?=).*$/gm;
 
